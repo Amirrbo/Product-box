@@ -1,0 +1,125 @@
+@font-face {
+	font-family: Vazir;
+	src: url(../fonts/Vazir-Medium-FD.woff) format("woff");
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0;
+}
+
+body{
+	font-family: Vazir;
+	background: #fafafa;
+}
+
+.product-section {
+	max-width: 1216px;
+	min-width: 1216px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	justify-content: space-between;
+}
+
+.product-h2-head {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.product-all {
+	text-decoration: none;
+	font-weight: bold;
+	color: #03A9F4;
+	margin-left: 10px;
+}
+
+.product {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.product-box {
+	width: 292px;
+	background: #fff;
+	border: solid 1px #ececec;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px 0px #33333321;
+	transition: box-shadow 0.2s, transform 0.12s ease;
+}	
+
+.product-box:hover {
+	box-shadow: 0px 2px 5px 0px #33333321;
+	transform: translateY(-1.5px);
+}
+
+.product_img {
+	width: 250px;
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block;
+}
+
+.product-data{
+	color: #242424;
+	line-height: 1.5;
+	font-size: 15px;
+	font-weight: normal;
+	height: 70px;
+}
+
+.product-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.product-span1 {
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.product-percent {
+	color: #03A9F4;
+	background-color: #def2ff;
+	padding: 0px 8px 0px 8px;
+	border-radius: 5px;
+	font-family: Vazir;
+	margin-left: 5px;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.product-off {
+	font-family: Vazir;
+	text-decoration: line-through;
+}
+
+.product-price{
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Vazir;
+}
+
+.product-price::after{
+	content: "تومان";
+	color: #242424;
+	margin-right: 5px;
+}	
+
+.product-span2 {
+	margin-top: 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
